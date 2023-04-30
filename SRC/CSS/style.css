@@ -1,14 +1,21 @@
+*{
+    margin: 0;
+}
+
 body{
     background-color: #000000;
     color: white;
 }
 .TITEL{
     color: black;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    text-align: center;
 }
 p{
     color: rgb(122, 0, 209);
     text-align: justify;
-    margin: 25px;
+    margin-bottom: 10px;
 }
 .p1{ color: rgb(47, 2, 68);
    
@@ -20,7 +27,10 @@ p{
 .Lalaland{
       margin-left:auto;
       margin-right:auto;
-      width:900px;
+      width:750px;
+      padding: 10px;
+      padding-left: 50px;
+      padding-right: 50px;
       background-color:limegreen;
-      
+      border-radius: 5px;
 }

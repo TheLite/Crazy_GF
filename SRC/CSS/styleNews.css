@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+}
+.container{
+    width: 600px;
+    margin: 0 auto;
+    margin-bottom: 42px;
+}
+.title{
+    font-family:'Calibri Light';
+    color: #666;
+}
+.title h1{
+    font-family: 'Times New Roman';
+    color: #333;
+    font-weight:normal;
+    font-size: 56px;
+    margin: 0;
+}
+
+.title h2{
+    margin: 16px 0px;
+    font-size: 24px;
+}
+.social{
+    margin: 8px 0;
+}
+.social img{
+    width: 32px;
+    height: 32px;
+    border-radius: 60px;
+    background-color: #ddd;
+    margin-right: 8px;
+}
+.art p{
+    margin: 16px 0;
+    font-size: 20px;
+    font-family: 'calibri';
+}
+.bold{
+    font-weight: bold;
+    font-size: 16px;
+}
