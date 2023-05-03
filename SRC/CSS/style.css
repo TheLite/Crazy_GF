@@ -2,10 +2,10 @@
     margin: 0;
 }
 
-body{
+/* body{
     background-color: #000000;
     color: white;
-}
+} */
 .TITEL{
     color: black;
     margin-top: 100px;
@@ -33,4 +33,43 @@ p{
       padding-right: 50px;
       background-color:limegreen;
       border-radius: 5px;
+}
+
+
+/* form.php */
+
+.dad{
+    background-color: #333;
+    color: whitesmoke;
+    font-size: 16px;
+    width: 800px;
+    margin: 16px auto
+}
+.central{
+    text-align: center;
+}
+.container{
+    margin: 16px;
+    padding: 16px;
+    display:flex;
+    flex-direction: column;
+}
+.rows{
+    display:flex;
+    flex-direction: row;
+    margin: 16px;
+
+}
+.Brincadeira{
+    /* border-width: 5px; */
+    /* border-radius: 10px; */
+    background-color: #333;
+    color: gray;
+    /* border-style: dotted; */
+    border-left-width: 0;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 2px;
+    border-color: white;
+    outline: none;
 }
