@@ -1,0 +1,99 @@
+body{
+    background-color: black;
+
+}
+.papis {
+    font-family: "Comic Sans MS";
+    font-weight: lighter;
+    background-color: peru;
+    border: 10px solid #9900ff;
+    padding: 20px;
+    margin: 50px auto;
+    width: 80%;
+ }
+
+ .l1 {
+    font-size: 40px;
+    text-align: center;
+    color: purple;
+ }
+
+ form {
+    margin: 20px;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ label {
+    font-size: 20px;
+    color: purple;
+ }
+
+ input {
+    color: purple;
+    outline: none;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: peru;
+    font-size: 16px;
+ }
+input[type ="button"]{
+   cursor:pointer;
+}
+ input[type="submit"] {
+    background-color: peru;
+    color: purple;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+ }
+
+
+
+ textarea {
+    color: purple;
+    outline: none;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: peru;
+    font-size: 16px;
+ }
+
+ input[type="range"]{
+    margin: 10px;
+    padding: 10px;
+    width: 80%;
+ }
+
+ input[type="range"]{
+      height: 30px;
+      width: 30px;
+      border-radius: 50%;
+      background-color: purple;
+      cursor: pointer;
+      outline: none;
+ }
+
+ input[type="range"] {
+    box-shadow: none;
+ }
+
+ input[type="checkbox"] {
+    margin: 10px;
+ }
+
+ #DataN {
+    margin-top: 10px;
+ }
+
+ #sou-fudido {
+    font-size: 16px;
+    color: peru;
+ }
